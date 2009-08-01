@@ -1,0 +1,5 @@
+Clone any mediawiki install to a git repository.
+
+git init
+ruby clone.rb http://a.wiki.tld | git fast-import
+git checkout master .
